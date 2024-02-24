@@ -366,8 +366,14 @@ line-height: 1.23;
     padding: 96px 0;
     background: #2E2100;
 }
+.feedback-list{
+    display: flex;
+    overflow: hidden;
+}
 .feedback-item{
     display: flex;
+    flex-shrink: 0;
+    width: 100%;
 }
 .feedback-item .avatar{
     width: 72px;
@@ -411,12 +417,7 @@ line-height: 1.23;
     width: 66%;
     margin-left: auto;
 }
-.feedback-item .open-quotes{
-    width: 30px;
-    height: 28px;
-    angle: -180 deg;
 
-}
 .feedback-item blockquote{
     font-size: 2.6rem;
     font-style: italic;
