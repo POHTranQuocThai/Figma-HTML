@@ -429,7 +429,6 @@ line-height: 1.23;
 .feartures{
     margin-top: 135px;
     padding: 65px 0;
-    background-color: #EBEAFF;
 }
 .feartures .body{
     display: flex;
@@ -466,4 +465,19 @@ line-height: 1.23;
     border-radius: 26px;
     background: var(--primary-color);
     margin-top: 32px;
+}
+/* =========feartures 2========== */
+.feartures-2{
+    margin-top: 70px;
+}
+.feartures-2 .images img{
+    width: 470px;
+    height: 440px;
+    border-radius: 20px;
+}
+.feartures-2 .content{
+    width: 49%;
+}
+.feartures-2 .body{
+    flex-direction: row-reverse;
 }
