@@ -425,3 +425,45 @@ line-height: 1.23;
     color: #FFFFFF;
     
 }
+/* =============feartures============== */
+.feartures{
+    margin-top: 135px;
+    padding: 65px 0;
+    background-color: #EBEAFF;
+}
+.feartures .body{
+    display: flex;
+    justify-content: space-between;
+}
+.feartures .images{
+    display: flex;
+    gap: 30px;
+}
+.feartures .images img{
+    width: 270px;
+    height: 404px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+.feartures .lower{
+    margin-top: 34px;
+}
+.feartures .content{
+    width: 41%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.feartures .desc{
+    margin-top: 16px;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color:  #5F5B53;
+}
+.feartures .cta-btn{
+    width: 137px;
+    height: 50px;
+    border-radius: 26px;
+    background: var(--primary-color);
+    margin-top: 32px;
+}
